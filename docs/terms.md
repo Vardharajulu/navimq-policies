@@ -36,4 +36,4 @@ If you have any questions or suggestions about the Terms and Conditions, please 
 
 ---
 
-By using our services, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.
+By using NaviMQ Application, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.

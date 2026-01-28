@@ -53,4 +53,4 @@ If you have questions regarding the local hashing, encryption, or privacy practi
 
 ---
 
-By using our services, you agree to this Privacy Policy.
+By using NaviMQ Application, you agree to this Privacy Policy.
