@@ -9,52 +9,21 @@ body {
   background-color: #f8f9fa;
 }
 
-// Side navigation styling
-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 30px 20px;
-  border-radius: 10px;
-  position: relative;
-  z-index: 1;
+// Hide sidebar and footer
+header, footer {
+  display: none !important;
 }
 
-header h1, header p, header a {
-  color: white !important;
-}
-
-header a:hover {
-  color: #f0f0f0 !important;
-}
-
-// Main content area styling
+// Main content area styling - full width
 section {
   background-color: white;
-  padding: 40px;
+  padding: 60px;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  position: relative;
-  z-index: 2;
-}
-
-// Fix layout for minimal theme
-.wrapper {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-// Ensure proper spacing between sidebar and content
-@media screen and (min-width: 768px) {
-  header {
-    float: left;
-    width: 270px;
-    margin-right: 30px;
-  }
-  
-  section {
-    float: right;
-    width: calc(100% - 320px);
-  }
+  width: 100% !important;
+  max-width: 900px;
+  margin: 40px auto;
+  float: none !important;
 }
 
 p, li {
